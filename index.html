@@ -12,22 +12,24 @@
 <body>
     <div class="weather-app">
     <header> 
-<form>
-    <input type="search" placeholder="Enter a city.."required />
-    <input type="submit"value="search"/>
+<form class="search-form">
+    <input type="search" placeholder="Enter a city.."required class="search-form-input" />
+    <input type="submit"value="search"class="search-form-button"/>
 </form>
     </header>
  <main>
+    <div class="weather-app-data">
     <div>
-    <h1>Paris</h1>
-    <p>
+    <h1 class="weather-app-city">Nairobi</h1>
+    <p class="weather-app-details">
      Tuesday 16:49, acattered clouds
      <br/>  
-     Humidity: 87%, Wind : 5.67km/h
+     Humidity: <strong>87% </strong> , Wind : <strong> 5.67km/h</strong>
     </p>
     </div>
-    <div>
-    ⛅️ 12°C
+    <div class="weather-app-temperature-container">
+   <div class="weather-app-icon"> ⛅️</div> <div class="weather-app-temperature">21</div> <div class="weather-app-unit">°C</div>
+    </div>
     </div>
 </main>
  <footer>
