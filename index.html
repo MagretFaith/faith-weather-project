@@ -12,15 +12,15 @@
 <body>
     <div class="weather-app">
     <header> 
-<form class="search-form">
-    <input type="search" placeholder="Enter a city.."required class="search-form-input" />
+<form class="search-form" id="search-form">
+    <input type="search" placeholder="Enter a city.."required class="search-form-input" id="search-form-input" />
     <input type="submit"value="search"class="search-form-button"/>
 </form>
     </header>
  <main>
     <div class="weather-app-data">
     <div>
-    <h1 class="weather-app-city">Nairobi</h1>
+    <h1 class="weather-app-city" id="city">Nairobi</h1>
     <p class="weather-app-details">
      Tuesday 16:49, acattered clouds
      <br/>  
@@ -41,5 +41,6 @@
 </P>
 </footer>
 </div>
+<script src="src/index.js"></script>
 </body>
 </html>
